@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	/*background: green;*/
+	position: relative;
+	font-family: "宋体";
+    font-size: 12px;
+}
+/*顶部大框*/
+#top{
+	width: 100%;
+	background-color: #F7F7F7;
+	height: 33px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+/*顶部大框结束*/
+/*顶部居中div*/
+#top .top_h{
+	width: 1200px;
+	height: 33px;
+	line-height: 33px;
+	color: #333333;
+    font-family: "宋体";
+    font-size: 12px;
+    margin: 0 auto;
+    /*border: 1px solid #CCCCCC;*/
+}
+/*顶部居中div结束*/
+/*顶部左侧*/
+#top .top_h .top_h_l{
+	float: left;
+	/*padding-left: 15px;*/
+}
+/*顶部左侧结束*/
+
+#top .top_h .top_h_l a{
+	text-decoration: none;
+	color: #333333;
+}
+#top .top_h .top_h_l .login a{
+	color: #A10000;
+}
+/*顶部中间部分*/
+#top .top_h .top_h_m{
+	padding-left: 480px;
+	float: left;
+}
+/*顶部中间部分结束*/
+#top .top_h .top_h_m a{
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	color: #333333;
+	height: 33px;
+	width: 55px;
+	display: block;
+	float: left;
+	padding-right: 15px;
+	background: url(../image/spritesbgtop.png) no-repeat 50px 16px ;
+}
+
+/*顶部right*/
+#top .top_h .top_h_r{
+	float: left;
+	position: relative;
+}
+
+#top .top_h .top_h_r .phone{
+	float: left;
+	display: block;
+	/*border: 1px solid green;*/
+	width: 70px;
+	height: 33px;
+	margin-left: 20px;
+	background: url(../image/spritesbgtop.png) no-repeat 0px -76px;
+}
+#top .top_h .top_h_r .weixin{
+	float: left;
+	display: block;
+	/*border: 1px solid green;*/
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 9px;
+	left: 100px;
+	/*margin-left: 25px;*/
+	background: url(../image/spritesbgtop.png) no-repeat -68px -121px;
+}
+#logo{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+}
+#logo .logo_l{
+	/*padding-left: 110px;*/
+	/*position: relative;*/
+	/*left: 110px;*/
+	width: 347px;
+	height: 95px;
+	background: url(../image/spritesbgtop.png) no-repeat 0px -148px;
+	/*border:1px solid red;*/
+}
+#logo .logo_m .tab{
+	/*border: 1px solid green;*/
+	position: absolute;
+	left: 430px;
+	top:25px;
+	
+	
+}
+#logo .logo_m .tab a{
+	font-color
+	line-height: 22px;
+	width: 58px;
+	height: 22px;
+	background: #A10000;
+	display: block;
+	float: left;
+	border:1px solid red;
+	text-decoration: none;
+	text-align: center;
+}
+}
