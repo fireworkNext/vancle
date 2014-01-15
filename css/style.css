@@ -112,15 +112,47 @@ body{
 	
 }
 #logo .logo_m .tab a{
-	font-color
-	line-height: 22px;
+	color: white;
+	line-height: 21px;
 	width: 58px;
-	height: 22px;
-	background: #A10000;
+	height: 21px;
+	background: #A10000  url(../image/spritesbgtop.png) no-repeat -252px -502px;
 	display: block;
 	float: left;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	text-decoration: none;
 	text-align: center;
 }
+#logo .logo_m  .search{
+	width: 530px;
+	height: 27px;
+	position: absolute;
+	left:430px;
+	color: #CCCCCC;
+	top: 45px;
+	border: 1px solid #A10000;
+
+}
+#logo .logo_m  .s_btn{
+	border: 0px;
+	width: 74px;
+	height: 29px;
+	background: url(../image/spritesbgtop.png) no-repeat 0px -272px;
+	position: absolute;
+	left:968px;
+	top: 45px;
+	cursor: pointer;
+}
+
+#logo .logo_r{
+	width: 157px;
+	height: 35px;
+	position: absolute;
+	left:1082px;
+	top:44px;
+	background: url(../image/spritesbgtop.png) no-repeat -245px -580px;
+}
+
+
+
 }
