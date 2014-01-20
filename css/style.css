@@ -89,9 +89,9 @@ body{
 	background: url(../image/spritesbgtop.png) no-repeat -68px -121px;
 }
 #logo{
-	width: 1200px;
+	width: 1260px;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	position: relative;
 }
 #logo .logo_l{
@@ -145,14 +145,121 @@ body{
 }
 
 #logo .logo_r{
-	width: 157px;
-	height: 35px;
+	width: 162px;
+	height: 37px;
 	position: absolute;
-	left:1082px;
-	top:44px;
-	background: url(../image/spritesbgtop.png) no-repeat -245px -580px;
+	right:32px;
+	top: 32px;
+	background: url(../image/spritesbgtop.png) no-repeat -243px -580px;
+}
+
+#logo .logo_r a{
+	line-height: 37px;
+	text-decoration: none;
+	text-align: center;
+	position: absolute;
+	left: 42px;
+	color: #333333;
+	font-size: 12px;
+	/*border:1px solid red;*/
+}
+#logo .logo_r span{
+	color: #A10000;
+	font-family: "宋体";
+	font-weight: 400;
+
+}
+#logo .logo_r a .icon{
+	display: block;
+	/*float: left;*/
+	left: 93px;
+	top:16px;
+	height: 6px;
+	width: 3px;
+	/*border: 1px solid red;*/
+	background: url(../image/spritesbgtop.png) no-repeat 0px -502px;
+	position: absolute;
+}
+/*导航条div开始*/
+#nav{
+	/*border:1px solid red;*/
+	width: 100%;
+	background: url(../image/nav_bg.jpg);
+	height: 35px;
+	position: relative;
+}
+#nav .topMenu{
+	width: 1260px;
+	margin:0px auto;
+	position: absolute;
+	left: 266px;
+}
+#nav .topMenu a{
+	text-decoration: none;
+	color: #ffffff;
+	float: left;
+	display: block;
+	padding: 0px 18px 0 18px;
+	line-height: 35px;
+	font-size: 14px;
+}
+#nav .topMenu a:hover{
+	background: #675241;
+}
+#nav .topMenu .topMenuRight{
+	position: absolute;
+	left:768px;
+}
+#nav .topMenu .topMenuRight .icon{
+	width: 7px;
+	height: 4px;
+	background: url(../image/spritesbgtop.png) no-repeat -159px -122px;
+	/*border:1px solid red;*/
+	display: block;
+	position: absolute;
+	top: 16px;
+	left: 223px;
+}
+/*导航条div结束*/
+/*所有商品分类开始*/
+#cag{
+	position: absolute;
+	top:118px;
+	left:25px;
+	width: 220px;
+	/*border: 1px solid red;*/
+}
+#cag a{
+	width: 220px;
+	display: block;
+	float: left;
+	height: 58px;
+	/*border:1px solid red;*/
+}
+#cag .top{
+	font-family: "黑体";
+	text-decoration: none;
+	line-height: 58px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	height: 71px;
+	background: url(../image/spritesbgtop.png) no-repeat 0px -343px;
+}
+#cag .type li{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	border:1px solid red;
+}
+#cag .type .content a{
+	display: block;
+	float: left;
+	text-decoration: none;
 }
 
 
 
+
+/*所有商品分类结束*/
 }
