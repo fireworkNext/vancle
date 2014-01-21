@@ -221,45 +221,83 @@ body{
 	left: 223px;
 }
 /*导航条div结束*/
+/*内容区域开始*/
+
 /*所有商品分类开始*/
-#cag{
+#list_left{
 	position: absolute;
-	top:118px;
+	top:120px;
 	left:25px;
-	width: 220px;
+	width: 223px;
+	height: 543px;
 	/*border: 1px solid red;*/
+	
 }
-#cag a{
-	width: 220px;
+
+#list_left .cpfl{
+
 	display: block;
-	float: left;
-	height: 58px;
-	/*border:1px solid red;*/
-}
-#cag .top{
+	width: 223px;
 	font-family: "黑体";
+	font-weight: 700;
 	text-decoration: none;
 	line-height: 58px;
 	text-align: center;
 	font-size: 16px;
 	color: #ffffff;
-	height: 71px;
+	height: 72px;
 	background: url(../image/spritesbgtop.png) no-repeat 0px -343px;
 }
-#cag .type li{
-	margin:0px;
+#list_left ul
+{
+	position: absolute;
+	top:68px;
+	width: 221px;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #CCCFC4;
+	border-top: none;
+}
+#list_left ul li{
 	padding:0px;
+	margin: 0px;
+	width: 190px;
+	height: 60px;
 	list-style: none;
-	border:1px solid red;
+	margin: 0px auto;
+	position: relative;
+	/*border: 1px solid red;*/
 }
-#cag .type .content a{
-	display: block;
-	float: left;
-	text-decoration: none;
+#list_left ul li h3{
+	margin: 0px auto;
+	position: absolute;
+	top:12px;
+	left:34px;
+	height: 12px;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: 微软雅黑;
+	/*border: 1px solid red;*/
 }
+#list_left ul li .one{
+	border-bottom: 1px solid #C9C9C9;
+	height: 27px;
+	line-height: 20px;
+	/*border: 1px solid green;*/
+	position: absolute;
+	top: 33px;
 
+}
+#list_left ul li .one a{
+ 	text-decoration: none;
+ 	color: #666666;
+ 	padding-right: 5px;
+}
 
 
 
 /*所有商品分类结束*/
+/*内容区域结束*/
 }
